@@ -1,0 +1,10 @@
+syntax = 'proto3';
+
+package example.dummy;
+
+message Foo {
+    uint64 id = 1;
+    string value = 2;
+    bool isOk = 3;
+    repeated string names_list = 4;
+}
